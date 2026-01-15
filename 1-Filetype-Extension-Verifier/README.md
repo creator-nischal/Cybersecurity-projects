@@ -1,49 +1,3 @@
-
-Create README for 1-Filetype-Extension-Verifier
-Jan 15
-·
-Cybersecurity-projects
-·
-main
-·
-+36
--5
-
-Archive
-
-Share
-
-Create PR
-
-
-can you help me write a readme for my project 1-Filetype-Extension-Verifier
-Copy
-Summary
-
-Expanded the README with requirements, usage guidance, output field descriptions, export notes, and general usage context for the tool.
-
-Testing
-
-Not run (documentation-only change).
-
-
-File (1)
-
-README.md
-1-Filetype-Extension-Verifier/README.md
-+36
--5
-
-
-
-Diff
-Logs
-
-1-Filetype-Extension-Verifier/README.md
-1-Filetype-Extension-Verifier/README.md
-+36
--5
-
 # Filetype Extension Verifier (Magic Number Checker)
 
 A Python GUI tool that verifies a file’s **real type** using magic numbers (file signatures) and warns when the **extension doesn’t match** (extension spoofing).
@@ -94,5 +48,3 @@ Use **Export CSV** or **Export JSON** after a scan to save the results. Files ar
 - Files with **no extension** or **unknown signatures** are marked as INFO.
 - ZIP containers are further inspected for Office-specific paths to detect DOCX/XLSX/PPTX.
 
-## License
-Add your preferred license here.
